@@ -8,7 +8,7 @@ using PluginAPI.Core.Attributes;
 using PluginAPI.Enums;
 using PluginAPI.Events;
 using PlayerRoles;
-using Plugin_Config_CN;
+using Plugin_Config_EN;
 
 namespace Plugin
 {
