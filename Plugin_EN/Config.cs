@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Plugin_Config_EN
+namespace Plugin_Config_CN
 {
     public class Config
     {
