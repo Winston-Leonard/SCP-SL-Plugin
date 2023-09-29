@@ -18,7 +18,7 @@ namespace Plugin
         public Config PluginConfig;
         private static CoroutineHandle _coroutineHandle;
         private static CoroutineHandle _coroutine;
-        [PluginEntryPoint("Plugin", "", "0.5.2", "Charles de Gaulle")]
+        [PluginEntryPoint("Plugin", "", "0.5.6", "Charles de Gaulle")]
         void Engbled()
         {
             EventManager.RegisterEvents(this);
