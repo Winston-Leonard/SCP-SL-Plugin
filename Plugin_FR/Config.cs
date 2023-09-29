@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace Plugin_Config_FR
 {
@@ -18,5 +19,15 @@ namespace Plugin_Config_FR
         public ItemType GuardItem { get; set; } = ItemType.Adrenaline;
         [Description("commandants addendum")]
         public ItemType CommanderItem { get; set; } = ItemType.None;
+        [Description("nombre de balles de Class-D(Ammo12gauge,Ammo9x19,Ammo44cal,Ammo762x39,Ammo556x45)")]
+        public List<ushort> ClassDAmmo { get; set; } = new List<ushort> { 200, 200, 200, 200, 200 };
+        [Description("nombre de balles de scientfiques")]
+        public List<ushort> ScientistAmmo { get; set; } = new List<ushort> { 200, 200, 200, 200, 200 };
+        [Description("nombre de balles de sécurité")]
+        public List<ushort> GuradAmmo { get; set; } = new List<ushort> { 200, 200, 200, 200, 200 };
+        [Description("nombre de balles de NTF")]
+        public List<ushort> NTFAmmo { get; set; } = new List<ushort> { 200, 200, 200, 200, 200 };
+        [Description("nombre de balles de CI")]
+        public List<ushort> CIAmmo { get; set; } = new List<ushort> { 200, 200, 200, 200, 200 };
     }
 }
